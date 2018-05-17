@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./vendor/swiper-4.2.6.min.css">
     <link rel="stylesheet" href="./css/index.css">
     <title>作业</title>
 </head>
+
 <body>
     <header>
         <ul class="index-menu">
@@ -17,25 +19,166 @@
             <li class="index-menu-item">模块3</li>
         </ul>
     </header>
-    
-    <main class="clearfix"> 
+
+    <main class="clearfix">
         <div class="left-content">
-            
+            <div class="notice boxshadow">
+                <div class="notice-title">
+                    <h5>班级新闻</h5>
+                    <a href="#">查看更多>></a>
+                </div>
+
+                <div class="notice-content">
+                    <ul>
+                        <li class="notice-item">
+                            <a href="#">周一新闻，这周体育老师请假啦~</a>
+                            <span class="date">2018-05-24 09:00:40</span>
+                        </li>
+
+                        <li class="notice-item">
+                            <a href="#">周一新闻，这周体育老师请假啦~</a>
+                            <span class="date">2018-05-24 09:00:40</span>
+                        </li>
+
+                        <li class="notice-item">
+                            <a href="#">周一新闻，这周体育老师请假啦~</a>
+                            <span class="date">2018-05-24 09:00:40</span>
+                        </li>
+
+                        <li class="notice-item">
+                            <a href="#">周一新闻，这周体育老师请假啦~</a>
+                            <span class="date">2018-05-24 09:00:40</span>
+                        </li>
+
+                        <li class="notice-item">
+                            <a href="#">周一新闻，这周体育老师请假啦~</a>
+                            <span class="date">2018-05-24 09:00:40</span>
+                        </li>
+
+                        <li class="notice-item">
+                            <a href="#">周一新闻，这周体育老师请假啦~</a>
+                            <span class="date">2018-05-24 09:00:40</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="notice blog boxshadow">
+                    <div class="notice-title">
+                        <h5>黑板报</h5>
+                        <a href="#">查看更多>></a>
+                    </div>
+    
+                    <div class="notice-content">
+                        <ul>
+                            <li class="blog-item">
+                                <p class="title">离高考还有20天！加油！</p>
+                                <p class="summary">主题沙河市科技安徽省电话卡华盛顿卡哈萨克的哈卡号是的卡号开始电话卡的空间哈卡收到货空间安徽省</p>
+                                <span class="blog-detail">查看详情</span>
+                            </li>
+                            <li class="blog-item">
+                                <p class="title">离高考还有20天！加油！</p>
+                                <p class="summary">主题沙河市科技安徽省电话卡华盛顿卡哈萨克的哈卡号是的卡号开始电话卡的空间哈卡收到货空间安徽省</p>
+                                <span class="blog-detail">查看详情</span>
+                            </li>
+                            <li class="blog-item">
+                                <p class="title">离高考还有20天！加油！</p>
+                                <p class="summary">主题沙河市科技安徽省电话卡华盛顿卡哈萨克的哈卡号是的卡号开始电话卡的空间哈卡收到货空间安徽省</p>
+                                <span class="blog-detail">查看详情</span>
+                            </li>
+                            <li class="blog-item">
+                                <p class="title">离高考还有20天！加油！</p>
+                                <p class="summary">主题沙河市科技安徽省电话卡华盛顿卡哈萨克的哈卡号是的卡号开始电话卡的空间哈卡收到货空间安徽省</p>
+                                <span class="blog-detail">查看详情</span>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
         </div>
 
         <div class="right-content">
-            <div class="register">
-                
+
+            <div class="swiper-container boxshadow">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img width="340" height="300" src="./images/1.jpg" alt="1">
+                    </div>
+                    <div class="swiper-slide">
+                        <img width="340" height="300" src="./images/2.jpg" alt="2">
+                    </div>
+                    <div class="swiper-slide">
+                        <img width="340" height="300" src="./images/3.jpg" alt="3">
+                    </div>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+
+                <!-- 如果需要导航按钮 -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+            </div>
+
+            <div class="register boxshadow">
+                <form>
+                    <h5>注册</h5>
+                    <p class="form-item">
+                        <label for="username">用户名：</label>
+                        <input id="username" type="text">
+                    </p>
+
+                    <p class="form-item">
+                        <label for="password">密码：</label>
+                        <input id="password" type="password">
+                    </p>
+
+                    <p class="form-item">
+                        <label for="confirm">确认密码：</label>
+                        <input id="confirm" type="password">
+                    </p>
+
+                    <p class="form-item">
+                        <label for="role">身份：</label>
+                        <select id="role" type="password">
+                            <option value="">请选择注册身份</option>
+                            <option value="1">班主任</option>
+                            <option value="2">同学</option>
+                            <option value="3">隔壁班的</option>
+                        </select>
+                    </p>
+
+                    <p class="form-item">
+                        <label for="files">注册资料：</label>
+                        <input id="files" type="file">
+                    </p>
+
+                    <p class="form-item">
+                            <label for="hobby">爱好：</label>
+                            <input id="clazz" type="checkbox" name=hobby value="1"><span>上课</span>
+                            <input id="sleep" type="checkbox" name=hobby value="2"><span>睡觉</span>
+                            <input id="dismiss" type="checkbox" name=hobby value="3"><span>下课</span>
+                        </p>
+
+                    <p class="form-item operation">
+                        <button type="button">提交</button>
+                        <button type="reset">重置</button>
+                    </p>
+                </form>
             </div>
         </div>
     </main>
 
     <footer>
-
+        <div class="footer-content">
+            <h5>作业</h5>
+            <p>Frank</p>
+        </div>
     </footer>
-
-    <script src="./vendor/jquery-3.3.1.min.js"></script>
-    <script src="./vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="./vendor/jquery-1.11.3.min.js"></script>
+    <script src="./vendor/swiper-4.2.6.min.js"></script>
     <script src="./js/index.js"></script>
 </body>
+
 </html>
